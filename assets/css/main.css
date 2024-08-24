@@ -1,6 +1,9 @@
 body{
     overflow-x: hidden;
 }
+h1, h2, h3{
+    color: #012C56;
+}
 .logo-hero{
     width: 200px;
 }
@@ -12,7 +15,7 @@ body{
     color: #212529;
 }
 .hero-icon-redes:hover{
-    background-color: #3f5f36;
+    background-color: #1E4F9C;
      a{
         transform: scale(1.2) rotateY(360deg);
         color: aliceblue;
@@ -36,11 +39,11 @@ body{
 .decoration-bar{
     width: 10%;
     height: 2px;
-    background-color: #3f5f36;
+    background-color: #1E4F9C;
     margin: 24px auto;
 }
 .animais-extintos{
-    background-image: url('../imagens/animalonca.png');
+    background-image: url('../imagens/imagem3.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -90,7 +93,7 @@ form textarea{
 .link-sair{
     cursor: pointer;
 }
-
 .mensagens{
     height: 32px;
+    
 }

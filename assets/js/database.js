@@ -86,15 +86,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     
                     `
-                    if(divConteudos){
-                     divConteudos.appendChild(postElement)
+                    if(Conteudos){
+                     Conteudos.appendChild(postElement)
                     }
                    
                     
                 })
             }else{
-                if(divConteudos){
-                 divConteudos.innerHTML='<p class="mt-5" >Nenhum post foi encontrado.</p>'
+                if(Conteudos){
+                 Conteudos.innerHTML='<p class="mt-5" >Nenhum post foi encontrado.</p>'
                 }
                
             }
@@ -110,14 +110,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     const post = posts[postId]
                     const postElement = document.createElement('div')
                     postElement.innerHTML=`
-                       <button class="btn btn-danger btn-sm mx-3 delete-post" data-id="${post.titulo}" >Apagar</button> 
+                       <button class="btn btn-danger btn-sm mx-3 delete-post" data-id="${postId}" >Apagar</button> 
                        <span class="fw-bold">${post.titulo}</span>
                        <hr/>                  
                     `
                     conteudos.appendChild(postElement)
 
                 })
-                document.querySelector('.delete-post').forEach((button)=>{
+                document.querySelectorAll('.delete-post').forEach((button)=>{
                     button.addEventListener('click', (e)=>{
                         const postId = e.target.getAttribute('data-id')
                         apagarPost(postId)

@@ -4,7 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BioLine</title>
+  <title>Idas</title>
+  <!-- AOS ANIMATE -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Descrição -->
   <meta name="description" content="Coloque uma descrição aqui...">
   <!-- Estilo Bootstrap -->
@@ -49,13 +51,13 @@
             <a class="nav-link" href="sobre.html">Sobre</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="ongs.html">ONGs</a>
+            <a class="nav-link" href="aulas.html">Aulas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="registros.html">Blog</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="denuncias.html">Denuncias</a>
+            <a class="nav-link" href="aplicativos.html">Aplicativos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contato.html">Contato</a>
@@ -68,7 +70,6 @@
               <li><a class="dropdown-item" href="#">Aéreos</a></li>
               <li><a class="dropdown-item" href="#">Aquáticos</a></li>
               <li><a class="dropdown-item" href="#">Domésticos</a></li>
-              <li><a class="dropdown-item" href="#">Selvagens</a></li>
             </ul>
           </li>
           <li class="nav-item link-admin">
@@ -89,7 +90,7 @@
  
   <h2 class=" mt-5 fw-bold text-center text-success">DENUNCIE QUALQUER MALTRATO, NÃO SEJA CUMPLICE DE CRIME!
   </h2>
-  <div class="decoration-bar"></div>
+  <div class="decoration-bar" data-aos="flip-right"></div>
 
   <div class="container pt-5 mt-5">
     <div class="col-12 py-5">
@@ -107,9 +108,9 @@
     </div>
   </div>
   <footer class="pt-5 text-center">
-    <div class="decoration-bar"></div>
+    <div class="decoration-bar" data-aos="flip-right"></div>
     <p>Todos os direitos reservados &copy; BioLine - 2024.</p>
-    <div class="decoration-bar"></div>
+    <div class="decoration-bar" data-aos="flip-right"></div>
   </footer>
 
  <!-- Firebase -->
@@ -124,6 +125,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <!-- SCRIPT AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>

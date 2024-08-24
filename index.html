@@ -4,7 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BioLine</title>
+  <title>Idas</title>
+     <!-- AOS ANIMATE -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Descrução -->
   <meta name="description" content="Coloque uma descrição aqui...">
   <!-- Estilo Bootstrap -->
@@ -22,11 +24,11 @@
       <img class="logo-hero" src="assets/imagens/imagenprov.jpeg" alt="BioLine">
     </div>
     <div class="redes-sociais col-12 col-md-3 offset-md-3 d-flex justify-content-evenly align-items-center">
-      <div class="hero-icon-redes border rounded-circle d-flex justify-content-center align-items-center"><a href="#"><i
+      <div class="hero-icon-redes border rounded-circle d-flex justify-content-center align-items-center"data-aos="fade-left" data-aos-duration="1000"><a href="#"><i
             class="bi bi-instagram fs-4"></i></a></div>
-      <div class="hero-icon-redes border rounded-circle d-flex justify-content-center align-items-center"><a href="#"><i
+      <div class="hero-icon-redes border rounded-circle d-flex justify-content-center align-items-center"data-aos="fade-left" data-aos-duration="1500"><a href="#"><i
             class="bi bi-twitter fs-4"></i></a></div>
-      <div class="hero-icon-redes border rounded-circle d-flex justify-content-center align-items-center"><a href="#"><i
+      <div class="hero-icon-redes border rounded-circle d-flex justify-content-center align-items-center"data-aos="fade-left" data-aos-duration="2000"><a href="#"><i
             class="bi bi-tiktok fs-4"></i></a></div>
     </div>
   </header>
@@ -45,17 +47,15 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">Início</a>
           </li>
+         
           <li class="nav-item">
-            <a class="nav-link" href="#sobre">Sobre</a>
+            <a class="nav-link" href="aulas.html">Aulas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="ongs.html">ONGs</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="registros.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="denuncias.html">Denuncias</a>
+            <a class="nav-link" href="aplicativos.html">Aplicativos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contato.html">Contato</a>
@@ -65,10 +65,9 @@
               Espécies
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Aéreos</a></li>
-              <li><a class="dropdown-item" href="#">Aquáticos</a></li>
-              <li><a class="dropdown-item" href="#">Domésticos</a></li>
-              <li><a class="dropdown-item" href="#">Selvagens</a></li>
+              <li><a class="dropdown-item" href="#">Empregabilidade</a></li>
+              <li><a class="dropdown-item" href="#">Saúde</a></li>
+              <li><a class="dropdown-item" href="#">Educação</a></li>
             </ul>
           </li>
           <li class="nav-item link-admin">
@@ -87,9 +86,9 @@
   </nav>
   <!-- Final da navegação -->
   <article class="container">
-    <h2 class=" mt-5 fw-bold text-center text-success">GLOBALIZANDO A IMPORTÂNCIA ANIMAL E VIVENCIANDO A PROBLEMÁTICA.
+    <h2 class=" mt-5 fw-bold text-center text-success">INCLUSÃO DOS DEFICIENTES AUDITIVOS NA SOCIEDADE
     </h2>
-    <div class="decoration-bar"></div>
+    <div class="decoration-bar" data-aos="flip-right"></div>
   </article>
   <!--  -->
   <section class="container-fluid p-5">
@@ -114,7 +113,7 @@
     <article class="second-theme">
       <div class="container">
         <h3 class="text-center text-success fw-bold my-5">MAIS UM TÓPICO PARA SER ABORDADO DENTRO DO SITE</h3>
-        <div class="decoration-bar"></div>
+        <div class="decoration-bar" data-aos="flip-right"></div>
         <h4 class="text-secondary text-center">Falando sobre (Determinado tema), percebe-se uma falta de senso não só
           populacional quanto também por parte do governo</h4>
         <div class="row my-5">
@@ -176,7 +175,7 @@
 
       <article class="sobre my-5 container" id="sobre">
         <h3 class="text-center text-success fw-bold my-5">Sobre nós</h3>
-        <div class="decoration-bar"></div>
+        <div class="decoration-bar" data-aos="flip-right"></div>
 
         <div class="row mt-5">
 
@@ -226,9 +225,9 @@
   </section>
 
   <footer class="pt-5 text-center">
-    <div class="decoration-bar"></div>
+    <div class="decoration-bar" data-aos="flip-right"></div>
     <p>Todos os direitos reservados &copy; BioLine - 2024.</p>
-    <div class="decoration-bar"></div>
+    <div class="decoration-bar" data-aos="flip-right"></div>
   </footer>
 
     <!-- Firebase -->
@@ -243,6 +242,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <!-- SCRIPT AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>
